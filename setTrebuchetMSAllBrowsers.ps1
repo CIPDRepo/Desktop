@@ -34,6 +34,7 @@ if (Test-Path $pathToPreferences) {
 # Modify Edge Preferences
 $baseDirs = @(
     "$env:LOCALAPPDATA\Microsoft\Edge\User Data",
+    "$env:LOCALAPPDATA\Microsoft\Edge Beta\User Data",
     "$env:LOCALAPPDATA\Microsoft\Edge SxS\User Data"
 )
 foreach ($baseDir in $baseDirs) {
